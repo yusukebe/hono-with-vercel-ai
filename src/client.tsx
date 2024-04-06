@@ -1,5 +1,5 @@
-import { createRoot } from 'react-dom/client'
 import { useChat } from 'ai/react'
+import { createRoot } from 'react-dom/client'
 
 function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat()
