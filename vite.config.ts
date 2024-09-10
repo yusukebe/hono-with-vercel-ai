@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
   } else {
     return {
       ssr: {
-        external: ['ai', 'openai', 'react', 'react-dom']
+        external: ['ai', '@ai-sdk/openai', 'react', 'react-dom']
       },
       plugins: [
         pages(),

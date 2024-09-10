@@ -7,11 +7,11 @@
     "deploy": "wrangler pages deploy dist"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.56",
     "@hono/react-renderer": "^0.1.1",
     "@hono/zod-validator": "^0.2.1",
     "ai": "^3.0.18",
     "hono": "^4.2.2",
-    "openai": "^4.32.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "zod": "^3.22.4"
